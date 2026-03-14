@@ -1,16 +1,16 @@
 #declarar
-x: int = 0
-y: int = 0
-r: int = 0
+valor1: int = 0
+valor2: int = 0
+diferença: int = 0
 
 #inicio
-x = int(input("digite seu primeiro número: "))
-y = int(input("digite seu segundo número: "))
-if (x>y):
-    r = (x-y)
+valor1 = int(input("digite seu primeiro número: "))
+valor2 = int(input("digite seu segundo número: "))
+if (valor1>valor2):
+    diferença = (valor1-valor2)
     print ("essa é a diferença entre seus números:", r)
-elif(x<y):
-    r = (y-x)
+elif(valor1<valor2):
+    diferença = (valor2-valor1)
     print ("essa é a diferença entre seus números:", r)
 else:
     print ("seus números são iguais")
