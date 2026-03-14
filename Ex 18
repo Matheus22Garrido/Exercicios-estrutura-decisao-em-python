@@ -1,0 +1,17 @@
+#declarar
+x: int = 0
+y: int = 0
+r: int = 0
+
+#inicio
+x = int(input("digite seu primeiro número: "))
+y = int(input("digite seu segundo número: "))
+if (x>y):
+    r = (x-y)
+    print ("essa é a diferença entre seus números:", r)
+elif(x<y):
+    r = (y-x)
+    print ("essa é a diferença entre seus números:", r)
+else:
+    print ("seus números são iguais")
+#fim
